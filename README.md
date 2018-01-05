@@ -9,11 +9,12 @@ With [npm](https://www.npmjs.com/) and [Browserify](https://github.com/browserif
 ```
 $ npm install -g browserify
 ```
-
+<!--
 Alternatively install it via [unpkg](https://unpkg.com/#/)
 ```html
 <script src="https://unpkg.com/airstyle"></script>
 ```
+-->
 
 ## Basic Usage
 
