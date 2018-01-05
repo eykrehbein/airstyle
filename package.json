@@ -1,0 +1,21 @@
+{
+  "name": "airstyle",
+  "version": "1.0.0",
+  "description": "A lightweight JS library to style elements. Compatible with almost every modern JS Framework and library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsrbn/airstyle.git"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "lightweight"
+  ],
+  "author": "Eyk Rehbein https://github.com/jsrbn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsrbn/airstyle/issues"
+  },
+  "homepage": "https://github.com/jsrbn/airstyle#readme"
+}
