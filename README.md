@@ -7,7 +7,7 @@ A lightweight **275 bytes ( _airstyle.min.js_ )** JavaScript library to style HT
 With [npm](https://www.npmjs.com/) and [Browserify](https://github.com/browserify/browserify) do:
 
 ```
-$ npm install -g browserify
+$ npm install airstyle
 ```
 <!--
 Alternatively install it via [unpkg](https://unpkg.com/#/)
