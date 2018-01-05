@@ -19,7 +19,7 @@ Alternatively install it via [unpkg](https://unpkg.com/#/)
 
 ```html
 <div class="myClass">
-	<p id="myText">airstyle.js</p>
+   <p id="myText">airstyle.js</p>
 </div>
 ```
 
@@ -33,12 +33,12 @@ airstyle(element, style)
 airstyle(".myClass", "width: 200px; height: 200px; border: 1px solid #000000")
 
 // style:object
-airstyle("#myText", {
-	color: "red",
+const styleObj = {
+    color: "red",
     "font-size": "40px",
     "font-family": "Arial"
-})
-
+}
+airstyle("#myText", styleObj)
 ```
 
 ## Extended usage
@@ -54,7 +54,7 @@ Airstyle is also compatible with almost every JS Framework. Tested in Angular, R
 #### Vue example
 ```html
 <div id="root">
-	<div class="container">
+   <div class="container">
     	<p>Hi!</p>
     </div>
 </div>
@@ -63,13 +63,13 @@ Airstyle is also compatible with almost every JS Framework. Tested in Angular, R
 const style = require("airstyle")
 new Vue({
     el: "#root",
-	data: {
+    data: {
     	color: "red",
         size: "20px"
     },
     methods: {
     	setStyle(){
-        	style(".container p", {
+            style(".container p", {
             	color: this.color,
                 "font-size": this.size
             });
@@ -88,22 +88,22 @@ new Vue({
 ```javascript
 const style = require("airstyle")
 class App extends React.Component {
-	constructor(){
-    	super();
-        this.state = {
-        	color: "red",
-            size: "20px"
-        }
+   constructor(){
+      super();
+      this.state = {
+           color: "red",
+           size: "20px"
+       }
     }
     componentDidMound(){
-    	style(".container p", {
-        	color: this.state.color,
+   	style(".container p", {
+            color: this.state.color,
             "font-size": this.state.size
         });
     }
     render(){
     	return (
-        	<div className="container">
+       	   <div className="container">
             	<p>Hi!</p>
             </div>
         )
