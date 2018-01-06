@@ -1,6 +1,6 @@
 # Airstyle
 
-A lightweight **275 bytes ( _airstyle.min.js_ )** JavaScript library to style HTML elements with JS as easy as possible. 
+A lightweight **232 bytes ( _airstyle.min.js_ )** JavaScript library to style HTML elements with JS as easy as possible. 
 
 ## Installation
 
