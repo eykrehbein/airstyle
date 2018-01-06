@@ -5,8 +5,7 @@ const style = (element, style) => {
 	}
 	if(typeof style === "object"){
 		let stringified = "";
-		for(let i=0; i!=Object.keys(style).length; i++){
-			let declaration = Object.keys(style)[i];
+		for(let declaration in style){
 			let value = style[declaration];
 			stringified = stringified + declaration + ":" + value + ";";
 		}
